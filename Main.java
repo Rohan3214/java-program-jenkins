@@ -6,6 +6,10 @@ class Main
         System.out.println("Output from Java Program"); 
         System.err.println("Hello");
         System.out.println("Added one more file ");
+
+        Student sc = new Student();
+
+        sc.sayHello();
     } 
 
 }
